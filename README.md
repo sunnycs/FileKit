@@ -4,10 +4,14 @@ Just works under windows.
 
 # Functions
 - getFileNum("./database/", "bmp")
-Returns the number of .bmp files under floder "./database/"
+
+	Returns the number of .bmp files under floder "./database/"
+
 - getFileListAndNum("./database/", "bmp", fileList, fileNum)
-Returns: true / false
-The memorty of fileList is automatically allocated, hence you should release it manully.
+
+	Returns: true / false
+	The memorty of fileList is automatically allocated, hence you should `release it manully`.
+
 ```
 char** fileList; //Data structure to store file names.
 int num; //total number of the .bmp files
