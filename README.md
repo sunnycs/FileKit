@@ -2,11 +2,12 @@
 Returns file name list of the destination floder.
 Just works under windows.
 
-# getFileNum("./database/", "bmp")
+# Functions
+- getFileNum("./database/", "bmp")
 Returns the number of .bmp files under floder "./database/"
-# getFileListAndNum("./database/", "bmp", fileList, fileNum)
+- getFileListAndNum("./database/", "bmp", fileList, fileNum)
 Returns: true / false
-The memorty of fileList is automatically allocated, hence you should release it manully
+The memorty of fileList is automatically allocated, hence you should release it manully.
 ```
 char** fileList; //Data structure to store file names.
 int num; //total number of the .bmp files
